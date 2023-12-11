@@ -1,0 +1,34 @@
+{
+    "myBudget": [
+    {
+        "title": "Electronics",
+        "budget": 300
+    },
+    {
+        "title": "Rent",
+        "budget": 350
+    },
+
+    {
+        "title": "Market place",
+        "budget": 80
+    },
+    {
+        "title": "Parking",
+        "budget": 30
+    },
+    {
+        "title": "Cab",
+        "budget": 250
+    },
+    {
+        "title": "Travel",
+        "budget": 450
+    },
+    {
+        "title": "Other",
+        "budget": 359
+    }
+    
+]
+}

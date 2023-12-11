@@ -1,0 +1,28 @@
+{
+  "name": "personal-budget1",
+  "version": "1.0.0",
+  "description": "The path to NGInx main folder:\r /usr/share/nginx/html",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "week4": "echo Server intiated for week 4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpm-1990/personal-budget.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rpm-1990/personal-budget/issues"
+  },
+  "homepage": "https://github.com/rpm-1990/personal-budget#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.2"
+  }
+}
