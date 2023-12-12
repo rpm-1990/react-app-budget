@@ -185,7 +185,7 @@
             }
 
             function getBudget() {
-                axios.get('http://localhost:3000/budget')
+                axios.get('http://192.81.209.103:3000/budget')
                 .then(function (res)
                 {
                     console.log(res);
@@ -206,7 +206,7 @@
     var budgetData = [];
 
     function getBudgetAgain() {
-        axios.get('http://localhost:3000/budget')
+        axios.get('http://192.81.209.103:3000/budget')
             .then(function (res) {
                 budgetData = res.data;
                 console.log(budgetData);

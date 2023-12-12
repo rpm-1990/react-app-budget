@@ -14,7 +14,7 @@ function ManageBudget() {
 
     try {
       // Send budget data to the server for insertion
-      const response = await axios.post('http://localhost:3000/add-budget', budgetData);
+      const response = await axios.post('http://192.81.209.103:3000/add-budget', budgetData);
 
       // Handle success response
       console.log('Budget added successfully!', response.data);

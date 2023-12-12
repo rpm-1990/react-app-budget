@@ -236,7 +236,7 @@ function DashboardPage({ setIsLoggedIn}) {
 
 
   const getBudgetFromDatabase = () => {
-  axios.get(`http://localhost:3000/budget?username=${username}`)
+  axios.get(`http://192.81.209.103:3000/budget?username=${username}`)
     .then(response => {
       const budgetData = response.data.Budget;
 

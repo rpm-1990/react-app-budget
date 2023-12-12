@@ -3,12 +3,12 @@
 describe('Signup Page', () => {
   beforeEach(() => {
     // Visit the signup page before each test
-    cy.visit('http://localhost:3001/Pages/SignupPage');
+    cy.visit('http://68.183.24.210:3000/Pages/SignupPage');
   });
 
   it('allows user signup and performs visual regression testing', () => {
     // Fill out the signup form
-    cy.get('input[name="username"]').type('user123');
+    cy.get('input[name="username"]').type('user1234');
     cy.get('input[name="email"]').type('test@example.com');
     cy.get('input[name="password"]').type('testpassword');
 
